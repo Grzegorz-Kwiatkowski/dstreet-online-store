@@ -5,6 +5,8 @@ import './Header.scss'
 import InfoPanel from './InfoPanel/InfoPanel'
 import MainPanel from './MainPanel/MainPanel'
 import Navigation from './Navigation/Navigation'
+import MyCarousel from './MyCarousel/MyCarousel'
+
 
 function Header() {
     return (
@@ -12,6 +14,7 @@ function Header() {
             <InfoPanel />
             <MainPanel />
             <Navigation />
+            <MyCarousel />
         </header>
     )
 }

@@ -1,0 +1,14 @@
+.my-carousel {
+    height: 200px;
+    width: 98%;
+    margin: .2rem 1rem;
+
+    &__container {
+        display: flex;
+
+        img {
+            margin: 5px;
+            height: 15rem;
+        }
+    }
+}

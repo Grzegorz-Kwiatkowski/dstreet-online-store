@@ -2,7 +2,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    // border-bottom: 1px solid #D0D0D0;
+
 
     &__list {
         display: flex;
@@ -37,8 +37,8 @@
                 .menswear__list,
                 .womenswear__list {
                     min-height: auto;
-                    max-height: 200px;
-                    padding: 1.5rem 0 1.5rem 2rem;
+                    max-height: 15rem;
+                    padding: 0 0 0 -2rem;
 
                 }
             }
@@ -60,11 +60,11 @@
             list-style-type: none;
             background-color: #f0f0f0;
             position: fixed;
-            left: 0;
+            left: -2rem;
             width: 100%;
             margin-top: .6rem;
             border-bottom: 1px solid darken(#D0D0D0, 5%);
-
+            z-index: 999;
 
             li {
                 color: lighten(#000, 20%);
@@ -76,6 +76,7 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                margin-top: 1rem;
 
                 &:hover {
                     border: none;

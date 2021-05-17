@@ -1,0 +1,141 @@
+.complaints {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    &__info {
+        width: 50%;
+        color: lighten(#000, 30%);
+
+        h4 {
+            font-size: .9rem;
+        }
+
+        p {
+            font-size: .8rem;
+        }
+
+        ul {
+            li {
+                font-size: .8rem;
+            }
+        }
+
+        table {
+            margin: 2rem auto;
+
+            caption {
+                text-align: left;
+                font-weight: bold;
+                margin-bottom: .5rem;
+            }
+
+            tr {
+
+                th,
+                td {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    &__links {}
+
+    &__refunds {
+
+        button {
+            border: 3px solid #000;
+            background-color: #000;
+            color: #fff;
+            width: 100%;
+            font-size: 1rem;
+            padding: .5rem 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition-duration: 500ms;
+            margin: 5px 0;
+
+            &:hover {
+                color: #000;
+                background-color: #fff;
+            }
+        }
+    }
+
+    &__content {
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        min-height: 0%;
+        max-height: 0px;
+        overflow: hidden;
+
+
+
+        p {
+            font-size: .8rem;
+        }
+
+        ol {
+            li {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    &__pdf-file {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 1rem;
+
+        a {
+            .icon {
+                font-size: 2rem;
+                color: lighten(#000, 50%);
+                transition-duration: 500ms;
+
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+
+    }
+
+    &__complaints {
+        button {
+            border: 3px solid #000;
+            background-color: #000;
+            color: #fff;
+            width: 100%;
+            font-size: 1rem;
+            padding: .5rem 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition-duration: 500ms;
+
+            &:hover {
+                color: #000;
+                background-color: #fff;
+            }
+        }
+    }
+
+    &__icon {
+        color: red;
+        font-size: 5rem;
+    }
+}
+
+.open {
+    min-height: 100%;
+    max-height: 2000px;
+}

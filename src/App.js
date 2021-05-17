@@ -1,10 +1,17 @@
 import './App.scss';
+import { HashRouter as Router } from 'react-router-dom';
+
+import Header from './components/header/Header';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>DSTREET Online Store</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+      </div>
+    </Router>
+
   );
 }
 

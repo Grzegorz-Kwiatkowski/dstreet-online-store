@@ -1,0 +1,68 @@
+.delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+
+    table {
+        border: 1px solid #000;
+        width: 50%;
+
+        caption {
+            margin: 1rem 0;
+            font-size: .9rem;
+        }
+
+        thead {
+            tr {
+                th {
+                    color: #fff;
+                    border: 1px solid #000;
+                    background-color: lighten(#000, 15%);
+                    font-size: .8rem;
+                    padding: .7rem 1.5rem;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    border: 1px solid #000;
+                    text-align: center;
+
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 7rem;
+                        max-height: 4.5rem;
+                        width: auto;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    ol {
+        width: 50%;
+        padding: 0 .5em;
+
+        li {
+            font-size: .6rem;
+
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}

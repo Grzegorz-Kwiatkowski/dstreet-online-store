@@ -1,0 +1,36 @@
+.info-panel {
+
+    border-bottom: 1px solid #D0D0D0;
+
+    &__nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__section {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        padding: 7px;
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 8px;
+
+        &--border {
+            border-right: 2px solid #D0D0D0;
+            border-radius: 10px/15%;
+            padding-right: 10px;
+        }
+
+        &--disabled {
+            cursor: default;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.main-panel {
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 0;
+    border-bottom: 1px solid #D0D0D0;
+
+    section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__logo {
+        img {
+            width: auto;
+            height: auto;
+        }
+    }
+
+    &__search-input {}
+
+    &__buttons {}
+}

@@ -1,0 +1,30 @@
+.buttons {
+    display: flex;
+
+    section {
+        margin: 0 5px;
+        color: #595959;
+        transition-duration: 500ms;
+
+        &:hover {
+            color: #0078D7;
+        }
+    }
+
+    &__button {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__icon {
+        font-size: 2rem;
+    }
+
+    &__text {
+        font-size: .7rem;
+        font-weight: 700;
+        margin: 0;
+    }
+}

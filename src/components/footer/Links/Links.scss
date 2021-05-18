@@ -1,0 +1,50 @@
+.links {
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        padding: 0;
+        margin: 0 1.5rem;
+
+        &:last-child {
+            background-image: url('../../../img//footer/phone.png');
+            background-size: 2rem 2rem;
+            background-repeat: no-repeat;
+            background-position: 50% 38%;
+            text-align: center;
+
+            ul {
+                li {
+                    margin-top: 3rem;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: lighten(#000, 30%);
+
+                }
+            }
+        }
+    }
+
+    &__header {
+        text-transform: uppercase;
+        font-size: .9rem;
+        color: lighten(#000, 20%);
+        margin: 1rem 0 .5rem 0;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+
+
+        &-item {
+            color: lighten(#000, 15%);
+            font-size: .7rem;
+            margin-bottom: 7px;
+
+
+        }
+    }
+}

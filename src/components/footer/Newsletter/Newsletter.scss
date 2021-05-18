@@ -1,0 +1,135 @@
+.newsletter {
+    background-color: darken(#F8F8F8, 2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D0D0D0;
+    border-top: 1px solid #D0D0D0;
+
+    &__form {
+        display: flex;
+    }
+
+    &__form-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-header {
+            text-transform: uppercase;
+            color: #848484;
+            font-size: 1.4rem;
+        }
+
+        label {
+            color: #fff;
+        }
+
+        input {
+            width: 8rem;
+            padding: .4rem 1rem;
+            color: #808080;
+            border: 1px solid lighten(#808080, 20%);
+            border-radius: 25px;
+            font-size: .9rem;
+            margin: .7rem;
+
+            &:focus {
+                outline-style: none;
+            }
+        }
+    }
+
+    &__submit-button {
+
+        border-radius: 5px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        transition-duration: 500ms;
+        font-weight: bold;
+        box-sizing: border-box;
+        margin-left: 1rem;
+
+        &:hover {
+
+            background-color: lighten(#000, 70%);
+            color: #000;
+        }
+    }
+
+
+    &__hidden-content {
+        overflow: hidden;
+        min-height: 0%;
+        max-height: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 4rem;
+
+    }
+
+    &__select-all-btn {
+        width: 25%;
+        border: 2px solid #000;
+        background-color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 7px 0;
+        transition-duration: 500ms;
+
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+    &__small-text {
+        color: #736969;
+        font-size: .7rem;
+    }
+
+    &__checkbox-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0;
+
+        label {
+            color: #fff;
+        }
+    }
+
+    &__checkbox-content {
+        color: lighten(#000, 10%);
+        font-size: .6rem;
+        margin-left: .5rem;
+    }
+
+    &__laws {
+        border: 1px solid lighten(#000, 70%);
+        padding: .5rem;
+
+        p {
+            font-size: .6rem;
+            margin: 0;
+            color: #757575;
+        }
+    }
+}
+
+
+.active {
+    min-height: 100%;
+    max-height: 2000px;
+
+}
+
+.disabled {
+    color: #666666;
+}
